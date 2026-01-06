@@ -1,0 +1,3 @@
+if the user logged in into multiple browser in toast ok and cancel bytton in login page  if user clicked on teh ok button then the user session will be cleared from the database 
+
+user will not be able to logged in into another browser , if logged in in some browser
