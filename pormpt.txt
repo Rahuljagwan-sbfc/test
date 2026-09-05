@@ -1,0 +1,17 @@
+Had a great experience at the AWS Agentic Football Cup in Mumbai on Thursday, September 3.
+
+Our team from SBFC Finance Limited reached the final and finished 2nd. 🏆
+
+The challenge: build and deploy **five autonomous AI agents** — goalkeeper, defender, midfielder and two forwards — each with its own role, prompt and model, running as separate runtimes on **Amazon Bedrock AgentCore**. Registering each runtime's **ARN** on the match platform put our team on the pitch.
+
+Every two seconds, the game engine streamed the full state — every player's coordinates, the ball, possession, score and stamina. Each agent converted that raw state into a structured summary it could reason about, while a position-specific prompt defined its priorities: when to pass, press, shoot or hold position.
+
+From kickoff, the agents played the entire match with no human intervention.
+
+**Latency mattered as much as intelligence.** A smart decision that arrives late is worthless, so we ran the agents on smaller, faster models — **Amazon Nova Micro and Lite** — and used a rule-based fallback whenever the model didn't respond in time, ensuring no player was left without an instruction.
+
+**Biggest takeaway for me: building effective AI systems is not just about choosing the most powerful model — it is about choosing the right model for the requirement and giving it the right context to make effective decisions.**
+
+Proud of the team and grateful to my teammates for the ideas, testing and execution that got us to the final. Thanks to AWS for a unique, hands-on challenge. 🚀
+
+#AgenticAI #AWS #AmazonBedrock #AgentCore #AIEngineering
